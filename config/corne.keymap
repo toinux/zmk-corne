@@ -51,8 +51,13 @@
         };
 
         accents {
-            status = "reserved";
             label = "Accents";
+            bindings = <
+&trans  &kp RA(Q)  &kp RA(W)  &kp RA(E)  &kp RA(N3)  &kp RA(N4)      &kp RA(N7)    &kp RA(U)  &kp RA(N8)  &kp RA(N9)  &kp RA(P)          &trans
+&trans  &kp RA(A)  &trans     &trans     &trans      &kp RA(LBRC)    &kp RA(RBRC)  &kp RA(J)  &kp RA(K)   &kp RA(L)   &kp RA(SEMICOLON)  &trans
+&trans  &kp RA(A)  &trans     &kp RA(C)  &trans      &trans          &trans        &trans     &trans      &trans      &trans             &trans
+                              &trans     &trans      &trans          &trans        &trans     &trans
+            >;
         };
 
         lower_layer {
@@ -88,13 +93,23 @@
         };
 
         fun {
-            status = "reserved";
             label = "Functions";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
 
         nav {
-            status = "reserved";
             label = "Navigation";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
 
         mouse {
