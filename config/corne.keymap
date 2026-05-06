@@ -125,10 +125,10 @@
 
         adjust {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp KP_NUM  &kp CAPSLOCK  &kp SCROLLLOCK  &trans  &kp PRINTSCREEN  &trans
+&trans      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans      &trans        &trans          &trans  &trans           &trans
+&bt BT_CLR  &trans         &trans         &trans         &trans         &trans           &trans      &trans        &trans          &trans  &trans           &trans
+                                          &trans         &trans         &trans           &trans      &trans        &trans
             >;
 
             label = "Adjust";
