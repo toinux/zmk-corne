@@ -17,7 +17,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SFTENT";
             #binding-cells = <0>;
-            bindings = <&mt RIGHT_SHIFT ENTER>, <&ht_enter ENTER ENTER>;
+            bindings =
+                <&mt_sft_enter RIGHT_SHIFT ENTER>,
+                <&ht_enter ENTER ENTER>;
         };
 
         ht_enter: ht_enter {
@@ -28,6 +30,17 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
+        };
+
+        mt_sft_enter: mt_sft_enter {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_SFT_ENTER";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
         };
     };
 
