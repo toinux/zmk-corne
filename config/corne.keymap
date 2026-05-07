@@ -62,7 +62,8 @@
         combo_caps_word {
             bindings = <&caps_word>;
             key-positions = <24 35>;
-            layers = <0>;
+            layers = <0 3>;
+            slow-release;
         };
     };
 
