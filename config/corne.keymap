@@ -115,8 +115,8 @@
             label = "Accents";
             bindings = <
 &trans  &kp RA(Q)  &kp RA(W)  &kp RA(E)  &kp RA(N3)  &kp RA(N4)              &kp RA(N7)             &kp RA(U)  &kp RA(N8)  &kp RA(N9)  &kp RA(P)              &trans
-&trans  &kp RA(A)  &trans     &trans     &trans      &kp RA(LEFT_BRACKET)    &kp RA(RIGHT_BRACKET)  &kp RA(J)  &kp RA(K)   &kp RA(L)   &kp RA(LS(SEMICOLON))  &trans
-&trans  &kp RA(A)  &trans     &kp RA(C)  &trans      &trans                  &trans                 &trans     &trans      &trans      &trans                 &trans
+&trans  &kp RA(A)  &kp RA(S)  &kp RA(D)  &trans      &kp RA(LEFT_BRACKET)    &kp RA(RIGHT_BRACKET)  &kp RA(J)  &kp RA(K)   &kp RA(L)   &kp RA(LS(SEMICOLON))  &trans
+&trans  &kp RA(Z)  &trans     &kp RA(C)  &trans      &trans                  &trans                 &trans     &trans      &trans      &trans                 &trans
                               &trans     &trans      &trans                  &trans                 &trans     &trans
             >;
         };
